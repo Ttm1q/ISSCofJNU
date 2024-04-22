@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faculty.DisciplineFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学院现有电子信息学科与技术、信息安全、软件工程、物联网工程、工业工程专业，智能信息处理技术1个自主设置二级学科硕、博士学位授权点，2020年新增人工智能专业。经学校专业调整后，自2020年起将在物联网工程、工业工程、人工智能专业3个本科专业进行招生；电子信息学科与技术、信息安全、软件工程专业不再招生。物联网工程专业为广东省特色专业。目前学院在读全日制本科学生1000余人。" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="专业列表(点击以查看详情):"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_discipline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
